@@ -1,0 +1,51 @@
+
+.main_div{
+    height: 720px;
+    width: 620px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(212, 213, 214);
+    display: flex;
+}
+.calendar_div{
+    margin-left: 20%;
+    height: 720px;
+    text-align: right;
+    display: flex;
+}
+ul{
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+}
+li{
+    margin: 0 0 12px 0;
+    font-weight: 100;
+}
+.memberName{
+    height:60px;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 3px;
+    display: flex;
+}
+.text{
+    padding: 10px;
+}
+.small_font{
+    font-size: small;
+    font-weight: normal;
+}
+
+.non_colliding_div{
+    flex-direction: column;
+    flex-basis: 100%;
+    position: absolute;
+    width: inherit;
+}
+
+.colliding_div{
+    flex-direction: column;
+    flex-basis: 100%;
+}
